@@ -1,0 +1,27 @@
+.register {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    padding: 20px;
+  }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10px;
+}
+h4 {
+  text-align: center;;
+}
+.error{
+  color: red
+}
+.mark {
+  color: brown;
+  margin-bottom: 20px;
+}
+.user {
+  margin-top: 60px;
+  width: 50%;
+}
